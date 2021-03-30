@@ -71,8 +71,17 @@ yarn install
 ```
 
 ### set your server ip, port on your raspberry
-for coonect raspberry pi to server you need to edit ip and port on this file.
+for connect raspberry pi to server you need to edit ip and port in this file.
 ```
 download-box-engine/app/config.js
+```
+then, you can run engine to connect the server. you must be in download-box-engine folder.
+```sh
+chmod -R 777 ./scripts
+./scripts/run.sh
+```
+If you have done everything right, you can open application with your ip:port in your browser. youcan monitor aria2 with tmux
+```sh
+tmux a -t session_aria2
 ```
 
