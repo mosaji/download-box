@@ -14,7 +14,7 @@ All of you need to setup your own raspberry pi as download box. basicly download
 you can use local computer to test this project Anyway you need to install dependencies
 - git ([installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
 - node.js ([installation guide](https://nodejs.dev/learn/how-to-install-nodejs))
-- **yarn ([installation guide](https://nodejs.dev/learn/how-to-install-nodejs))**
+- **yarn ([installation guide](https://classic.yarnpkg.com/en/docs/install))**
 
 
 After you are sure of installing these you can continue, open new Terminal/CMD and continue.
