@@ -1,0 +1,55 @@
+* {
+  font-family: 'vazir';
+}
+
+/* Invert navigation bars to fill style */
+:root {
+  --f7-theme-color: #ff4c68;
+  --f7-theme-color-rgb: 255, 45, 85;
+  --f7-theme-color-shade: #ff4c68;
+  --f7-theme-color-tint: #ff4c68;
+  --f7-toolbar-height: 50px;
+  --f7-navbar-font-size: 0.9rem;
+  --f7-navbar-text-color: #333;
+  --f7-bars-bg-color: #fff;
+  --f7-page-bg-color: #fbfbfb;
+  --f7-bars-border-color: #d4d4d4;
+  --nx-border: #f3f3f3;
+  --f7-progressbar-bg-color: #e8e8e8;
+  --f7-input-placeholder-color: rgba(255, 255, 255, 0.863);
+}
+
+.toolbar {
+  min-height: var(--f7-toolbar-height);
+}
+
+.card-backdrop {
+  background: unset;
+}
+
+.border-box {
+  background: white;
+  border: 1px solid var(--nx-border);
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+.border-box-no-pad {
+  padding: 0 !important;
+  @extend .border-box;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.fab {
+  margin-bottom: 3.3rem;
+}
