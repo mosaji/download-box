@@ -84,4 +84,8 @@ If you have done everything right, you can open application with your ip:port in
 ```sh
 tmux a -t session_aria2
 ```
+you can add to startup with pm2
 
+```sh
+npm run startup
+```
