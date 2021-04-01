@@ -19,8 +19,8 @@ you can use local computer to test this project Anyway you need to install depen
 
 After you are sure of installing these you can continue, open a new Terminal/CMD and continue.
 ```sh
-git clone
-cd download-box-base
+git clone https://github.com/mosaji/download-box.git
+cd download-box/download-box-base
 yarn install
 cd frontend
 yarn install
@@ -41,12 +41,12 @@ Make sure you are on this path download-box-base/
 ```sh
 node server.js
 ```
-if you want to use development mode in the frontend
+if you want to use development mode in the frontend. (open new Tarminal)
 ```sh
 cd frontend/
 yarn dev
 ```
-if you want to use production mode
+if you want to use production mode. (open new Tarminal)
 ```sh
 cd frontend/
 yarn build
@@ -65,8 +65,8 @@ sudo npm install -g yarn
 
 make sure to installed dependencies and then
 ```sh
-git clone
-cd download-box-engine
+git clone https://github.com/mosaji/download-box.git
+cd download-box/download-box-engine
 yarn install
 ```
 
